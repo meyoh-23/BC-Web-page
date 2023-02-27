@@ -1,0 +1,245 @@
+
+*,
+*::before
+*::after{
+    background: black;
+    box-sizing: border-box;
+}
+
+
+header{
+    background: black;
+    z-index: -1;
+    color: white;
+    max-width: 50rem;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+body{
+    margin: 0;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background: black;
+}
+.about{
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+section{
+    padding-block: 5rem;
+}
+
+.about{
+    --skew-angle: -5deg;
+    --background:  linear-gradient(
+        45deg, 
+        #aec5ca, 
+        #b0a9b486, 
+        #4e2d2f
+        );
+
+    position: relative;
+    isolation: isolate;
+}
+
+.about::after{
+content: '';
+background-image: var(--background);
+linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+position: absolute;
+z-index: -1;
+inset: 0;
+transform: skewY(var(--skew-angle));
+}
+
+.core-values{
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+.core-values{
+    --skew-angle: -5deg;
+    --background:  linear-gradient(
+        45deg, 
+        #aec5ca, 
+        #b0a9b486, 
+        #4e2d2f
+        );
+
+    position: relative;
+    isolation: isolate;
+}
+
+.core-values::after{
+    content: '';
+    background-image: var(--background);
+    linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+    }
+
+    .snip{
+        max-width: 50rem;
+        margin-inline: auto;
+        padding-inline: 1rem;
+    }
+
+    .snip{
+        --skew-angle: -5deg;
+        --background:  linear-gradient(
+            45deg,
+            #aec5ca, 
+            #b0a9b486, 
+            #4e2d2f
+           
+            );
+    
+        position: relative;
+        isolation: isolate;
+    }
+
+    .snip::after{
+        content: '';
+        background-image: var(--background);
+        linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        transform: skewY(var(--skew-angle));
+        }
+    
+.footer{
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+.footer{
+    --skew-angle: -5deg;
+    --background:  linear-gradient(
+        45deg,
+        #aec5ca, 
+        #b0a9b486, 
+        #4e2d2f
+       
+        );
+
+    position: relative;
+    isolation: isolate;
+}
+
+.footer::after{
+    content: '';
+    background-image: var(--background);
+    linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+    }
+
+    img{
+        padding: 5px;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .navbar{
+        
+        background-color: rgba(78, 126, 78, 0.397);
+        text-align: flex-center;
+        display: inline-flex;
+    }
+   
+    .navbar a{
+    color: #fff;
+    width: 120px;
+    margin: 15;
+    padding: 15px;
+    text-decoration: none;
+    }
+
+    .navbar a:hover{
+        background:  linear-gradient(
+        45deg,
+        #c471ed,
+        #f64f59,
+        #12c2e9 
+        );
+        color: black;
+        border-radius: 30%;
+    }
+
+    .navbar a:active{
+        background:  linear-gradient(
+            45deg,
+            #c471ed,
+            #f64f59,
+            #12c2e9 
+            );
+        color: lightgray;
+        border-radius: 30%;
+    }
+    
+    .logo{
+        display: flex;
+    }
+    .core-values{
+        list-style: none;
+    }
+
+    h3{
+        font-size x-large;
+        
+    }
+    .media{
+        list-style: none;
+    }
+   
+    .designer{
+        list-style: none;
+        display: flex;
+        background: black;
+        c
+    }
+    .designer a{
+        text-decoration: none;
+        color-scheme: white;
+    }
+    .designer img{
+        background: none;
+    }
+
+    .home{
+        list-style: none;
+    }
+    .home img{
+        background:  #b0a9b486, ;
+        border: solid #999;
+        border-radius: 40%;
+    }
+    legend{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .copyright img{
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background:  black; 
+    }
+
+    .copyright{
+        display: flex;
+    }

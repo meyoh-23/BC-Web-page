@@ -1,0 +1,340 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    list-style: none;
+    background: #000;
+}
+header{
+    color: white;
+    background:linear-gradient(
+        rgb(73, 68, 68)
+        rgb(39, 34, 34)
+        rgb(19, 18, 18)
+        
+    ) ;
+}
+
+.describe{
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    color: #fff;
+    background: linear-gradient(
+        rgb(73, 68, 68)
+        rgb(39, 34, 34)
+        rgb(19, 18, 18)
+        
+    );
+    font-style: italic;
+}
+.leadership{
+    background: linear-gradient(
+        45deg, 
+        #aec5ca, 
+        #b0a9b486, 
+        #4e2d2f
+        );
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+.members1{
+    background: linear-gradient(
+        -45deg, 
+        #aec5ca, 
+        #b0a9b486, 
+        #4e2d2f
+        );
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+.members2{
+    background: linear-gradient(
+        45deg, 
+        #aec5ca, 
+        #b0a9b486, 
+        #4e2d2f
+        );
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+footer{
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+footer img{
+    background: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+footer a{
+    text-decoration: none;
+}
+.designer{
+    display: flex;
+}
+.shibi{
+    width: 80%;
+    display: grid;
+    place-items: center;
+    }
+/* stlyling the figure section and image*/
+.shibi figure{
+    width: 366px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(76, 163, 192)
+
+    }
+    .shibi figure img{
+        width: 100%;
+    }
+    .shibi figcaption{
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        color: azure;
+    }
+    /*Styling for izzoh*/
+    .izzoh
+    {
+        width: 80%;
+        display: grid;
+        place-items: center;
+    }
+    .izzoh figure{
+        width: 200px;
+        height: 370px;
+        position: relative;
+        background-color: rgb(221, 210, 210)
+    }
+    .izzo  img{
+        width: 100%;
+    }
+    .izzoh figcaption{
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+    }
+    /*Stlyling for Albert*/
+    .alberto{
+            width: 80%;
+            display: grid;
+            place-items: center;
+    }
+    .alberto figure{
+        width: 220px;
+        height: 400px;
+        position: relative;
+        background-color:rgb(204, 192, 175);
+    }
+    .alberto img{
+        width: 100%;
+    }
+    .alberto figcaption{
+        font-family: 'Caveat', cursive;
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+    }
+/* Styling for Omu*/
+.omu{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.omu figure{
+    width: 200px;
+    height: 350px;
+    position: relative;
+    background-color:rgb(204, 146, 98);
+}
+.omu img{
+    width:100%;
+}
+.omu figcaption{
+    font-family: 'Caveat', cursive;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+}
+/* Styling for felloh*/
+.felloh{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.felloh figure{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(80, 72, 72);
+}
+.felloh img{
+    width: 100%;
+}
+.felloh figcaption{
+    font-family: 'Caveat', cursive;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+}
+
+/* Styling for Mandela*/
+.mandela{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.mandela figure{
+    width: 200px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(80, 72, 72);
+}
+.mandela img{
+    width: 100%;
+}
+.mandela figcaption{
+    font-family: 'Caveat', cursive;
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+}
+
+/*Styling for Ephantus*/
+.epho{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.epho figure{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(80, 72, 72);
+}
+.epho img{
+    width: 100%;
+}
+.epho figcaption{
+    font-family: 'Caveat', cursive;
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+}
+
+/*Styling for Steddy*/
+.mutamba{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.mutamba figure{
+    width: 200px;
+    height: 340px;
+    position: relative;
+    background-color: rgb(80, 72, 72);
+}
+.mutamba img{
+    width: 100%;
+}
+.mutamba figcaption{
+    font-family: 'Caveat', cursive;
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+        color: rgb(31, 26, 26);
+}
+
+/*Styling for Ben*/
+.ben{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.ben figure{
+    width: 200px;
+    height: 280px;
+    position: relative;
+    background-color: rgb(80, 72, 72);
+}
+.ben img{
+    width: 100%;
+}
+.ben figcaption{
+    font-family: 'Caveat', cursive;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    color: rgb(31, 26, 26);
+}
+
+/*Styling for Ronny*/
+.bwire{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+.bwire figure{
+    width: 200px;
+    height: 310px;
+    position: relative;
+    background-color: rgb(80, 72, 72);
+}
+.bwire img{
+    width: 100%;
+}
+.bwire figcaption{
+    font-family: 'Caveat', cursive;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    color: rgb(31, 26, 26);
+}
+
+.paragraph{
+    display: block;
+    font-size: small;
+    font-style: oblique;
+}
+
+/*Arranging elements in the page*/
+header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+.describe{
+    text-align: center;
+}
+
+.leadership{
+margin-inline: auto;
+}
+a{
+    color: rgb(88, 78, 64);
+    font-size: x-large;
+    font-weight: bold
+}
+.designer{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+
+}

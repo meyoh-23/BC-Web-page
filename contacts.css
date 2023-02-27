@@ -1,0 +1,147 @@
+*,
+*::before
+*::after{
+    background: black;
+    box-sizing: border-box;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* no list style in the body of my page*/
+body{
+   list-style: none;
+   background: rgb(185, 180, 180);
+}
+
+/*Styling the Heading*/
+header{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*fieldset and Legend*/
+fieldset{
+    margin: 2em;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+    list-style: none;
+}
+legend{
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.25em;
+    color: darkgray;
+}
+
+/*Styling the Label*/
+label{
+    display: block;
+    margin-top: 1em;
+}
+.checks label{
+    margin-top: 0;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+
+/*input and textarea*/
+input{
+    padding: .5em;
+    border: solid 1px #999;
+}
+input[type="email"], input[type="text"]{
+    width: 15em;
+}
+textarea{
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+/*radio button and checkboxes*/
+.checks{
+    margin-bottom: 1em;
+}
+.checks p{
+    margin-bottom: 0;
+}
+input[type="checkbox"] + label, input[type= radio] + label{
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+}
+input[type="radio"]{
+    margin-left: 1.5em;
+    margin-right: 0;
+}
+input[type="radio"]:first-of-type{
+    margin-left: 0;
+}
+
+/*customize the submit button*/
+input[type="submit"]{
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: .8em;
+}
+footer{
+    margin: 2em;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+    list-style: none;
+}
+/*styling Links in in the page*/
+a{
+    text-decoration: none;
+    font-style: oblique;
+    color: lightslategrey;
+}
+
+.navigation{
+    background: #333;
+}
+.navigation a{
+    color: white;
+}
+.designer{
+    background: black;
+    color: aliceblue;
+    display: inline-flex;
+    display: flex;
+}
+
+/*designing for large screens*/
+@media screen and(min-width: 430px){
+    legend{
+        font-size: 1.75em;
+    }
+    fieldset{
+        width: 40%
+        min-width: 320px;
+        margin: auto;
+    }
+    .checks label{
+        display: inline-block;
+        padding-top: .5em;
+        margin-top: 0;
+        margin-right: .5em;
+    }
+}

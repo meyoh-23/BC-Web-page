@@ -1,0 +1,21 @@
+body{
+    background: rgb(185, 180, 180);
+    padding-bottom: 20px;
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 59, 39);
+}
+footer{
+    margin-inline: auto;
+}
+.designer{
+    background: black;
+    display: flex;
+}
